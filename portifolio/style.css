@@ -30,11 +30,13 @@ body{
 
 .homepage-main {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagem-homepage {
-    height: 60vh;
-    width: 3000px;
+    height: 400px;
+    width: 700px;
     background-color: #ED4D4D;
     margin-right: 50px;
     margin-top: 50px;
@@ -42,7 +44,7 @@ body{
 }
 
 .imagem-homepage img {
-    height: 60vh;
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }
@@ -86,4 +88,85 @@ body{
 .homepage-abilities{
     background-color: #2C2121;
     color: white;
+    padding-bottom: 150px;
+}
+
+.abilites{
+    display: flex;
+    width: 90%;
+    margin-top: 70px;
+    margin-left: 7%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ability {
+    height: 150px;
+    width: 100%;
+    font-size: 10px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+.ability ul {
+    margin-left: 20px;
+}
+
+.icon {
+    background: linear-gradient(#B72A2A, #511313);
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.ability:hover .icon {
+    background: linear-gradient(#cd2e2e, #da1212);
+    transform: scale(1.1);
+}
+
+.ability:hover {
+    background-color: #471d1d;
+}
+
+.icon img{
+    object-fit: cover;
+    height: 70px;
+}
+
+.abilites-top {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.abilities-top ul{
+    width: 300px;
+    font-size: 10px;
+    margin-right: 25px;
+}
+.abilites-down {
+    display: flex;
+}
+.abilities-down ul{
+    width: 300px;
+    font-size: 10px;
+}
+
+.text-ability {
+    width: 350px;
+}
+
+.text-ability h1 {
+    margin-bottom: 10px;
+}
+
+
+.transition-homepage-main-abilities {
+    height: 30px;
+    background: linear-gradient(#2F2727, #2C2121);
 }
