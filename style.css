@@ -178,6 +178,10 @@ body{
     height: 30px;
     background: linear-gradient(#2C2121, #3D2A2A);
 }
+.transition-homepage-projects-experiences {
+    height: 30px;
+    background: linear-gradient(#3D2A2A, #4E2B2B);
+}
 
 .homepage-projects {
     background-color: #3D2A2A;
@@ -241,7 +245,10 @@ body{
     margin-bottom: 10px;
 }
 
-.project button {
+.project a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 40px;
     width: 200px;
     outline: 0;
@@ -252,17 +259,14 @@ body{
     border: 5px solid rgb(97, 23, 23);
     border-radius: 20px;
     transition: 0.5s;
-}
-
-.project button:hover{
-    transform: scale(1.2);
-    background: linear-gradient(#cd2e2e, #da1212);
-}
-
-.project button a {
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+
+.project a:hover{
+    transform: scale(1.1);
+    background: linear-gradient(#cd2e2e, #da1212);
 }
 
 .homepage-projects .homepage-top{
@@ -271,4 +275,88 @@ body{
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+.homepage-experiences {
+    background-color: #4E2B2B;
+    height: 800px;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.homepage-experiences .homepage-top {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.homepage-experiences h2 {
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.certificacoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.certificado{
+    background: linear-gradient(#0e0909, #350e0e);
+    height: 500px;
+    width: 30%;
+    padding-inline: 10px;
+    border-radius: 10px;
+    margin-inline: 10px;
+    position: relative;
+    margin-top: 20px;
+    box-shadow: 10px 5px 40px 6px rgb(141, 33, 33);
+}
+.certificado h1 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+.certificado h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 60px;
+}
+
+.imagem-certificado {
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.imagem-certificado img {
+    height: 300px;
+    border-radius: 20px;
+}
+
+.certificado a{
+    display: block;
+    background: linear-gradient(#B72A2A, #511313);
+    width: 95%;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: 0.5s;
+    position: absolute;
+    bottom: 10px;
+}
+
+.certificado a:hover{
+    transform: scale(1.03);
+    background: linear-gradient(#cd2e2e, #da1212);
 }
