@@ -182,6 +182,10 @@ body{
     height: 30px;
     background: linear-gradient(#3D2A2A, #4E2B2B);
 }
+.transition-homepage-experiences-contato {
+    height: 30px;
+    background: linear-gradient(#4E2B2B, #562121);
+}
 
 .homepage-projects {
     background-color: #3D2A2A;
@@ -321,6 +325,7 @@ body{
     margin-bottom: 10px;
     position: absolute;
     bottom: 60px;
+    font-weight: 100;
 }
 
 .imagem-certificado {
@@ -359,4 +364,53 @@ body{
 .certificado a:hover{
     transform: scale(1.03);
     background: linear-gradient(#cd2e2e, #da1212);
+}
+
+.homepage-contato {
+    background-color: #562121;
+    height: 300px;
+}
+
+.homepage-contato .homepage-top{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.homepage-contato h1 {
+    font-size: 20px;
+    margin-left: 60px;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.links {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.link {
+    background-color: rgba(121, 10, 10, 0.1);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.link:nth-child(1) {
+    border-bottom: 2px solid rgba(14, 3, 3, 0.548);
+}
+
+.link img {
+    height: 100%;
+    margin-right: 10px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #440404;
 }
