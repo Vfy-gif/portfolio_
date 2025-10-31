@@ -414,3 +414,130 @@ body{
     text-decoration: none;
     color: #440404;
 }
+
+@media (max-width: 1200px) {
+
+    .imagem-homepage {
+        width: 500px; 
+        margin-right: 30px;
+    }
+    
+    .homepage-text h3 {
+        width: 400px; 
+    }
+
+    .abilites {
+        flex-direction: column; 
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .abilities-top, .abilites-down {
+        display: block; 
+    }
+
+    .abilities-top ul, .abilities-down ul {
+        width: auto; 
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .homepage {
+        height: auto; 
+        padding-bottom: 50px;
+    }
+
+    .homepage-main {
+        flex-direction: column; 
+    }
+
+    .imagem-homepage {
+        width: 90%; 
+        height: 300px;
+        margin: 20px auto; 
+        order: -1; 
+    }
+    
+    .homepage-text {
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center; 
+    }
+    .homepage-text h3 {
+        width: auto; 
+        padding-inline: 10px;
+    }
+    
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .project {
+        width: 90%;
+        margin-bottom: 40px;
+        padding-bottom: 60px;
+    }
+    
+    .project a {
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+
+    .certificacoes {
+        flex-direction: column;
+    }
+    
+    .certificado {
+        width: 80%;
+        margin-bottom: 40px;
+        height: auto; 
+        padding-bottom: 60px; 
+    }
+    
+    .certificado h3 {
+        position: static; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .homepage-top h1, .homepage-contato h1 {
+        margin-left: 5%;
+        font-size: 20px;
+    }
+
+    .homepage-top {
+        padding-top: 20px;
+    }
+
+    .homepage-text h1 {
+        font-size: 30px;
+    }
+    
+    .homepage-text h2 {
+        font-size: 16px;
+    }
+    
+    .icon {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .icon img {
+        height: 50px;
+    }
+    
+    .text-ability {
+        width: auto;
+    }
+    
+    .ability ul {
+        margin-left: 10px;
+    }
+}
