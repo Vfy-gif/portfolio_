@@ -19,6 +19,7 @@ body{
     border-bottom: 5px solid #ED4D4D;
     padding-top: 50px;
     margin-left: 5%;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 .homepage-top h1 {
     margin-left: 90px;
@@ -53,6 +54,7 @@ body{
     margin-top: 90px;
     margin-left: 100px;
     color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
 .homepage-text h1 {
@@ -106,6 +108,7 @@ body{
     font-size: 10px;
     display: flex;
     margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
 
@@ -169,4 +172,103 @@ body{
 .transition-homepage-main-abilities {
     height: 30px;
     background: linear-gradient(#2F2727, #2C2121);
+}
+
+.transition-homepage-abilities-projects {
+    height: 30px;
+    background: linear-gradient(#2C2121, #3D2A2A);
+}
+
+.homepage-projects {
+    background-color: #3D2A2A;
+    height: 770px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.project {
+    height: 600px;
+    width: 500px;
+    margin-inline: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 6px;
+    color: white;
+    position: relative;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.imagem-project {
+    height: 260px;
+    width: 95%;
+    margin-inline: 2.5%;
+    margin-top: 1%;
+    overflow: hidden;
+}
+
+.imagem-project img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.project h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project h1 {
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 6px;
+}
+
+.projects .project:nth-child(1) h1 {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.project ul {
+    margin-left: 20px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.project button {
+    height: 40px;
+    width: 200px;
+    outline: 0;
+    border: 0;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#B72A2A, #511313);
+    border: 5px solid rgb(97, 23, 23);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.project button:hover{
+    transform: scale(1.2);
+    background: linear-gradient(#cd2e2e, #da1212);
+}
+
+.project button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.homepage-projects .homepage-top{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
