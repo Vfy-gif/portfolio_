@@ -394,7 +394,7 @@ body{
 }
 
 .link {
-    background-color: rgba(121, 10, 10, 0.1);
+    background-color: rgba(167, 125, 125, 0.1);
     height: 40px;
     display: flex;
     align-items: center;
@@ -411,8 +411,12 @@ body{
 }
 
 .link a {
-    text-decoration: none;
-    color: #440404;
+    color: #850909;
+    transition: 0.5s;
+}
+
+.link a:hover {
+    color: #200101;
 }
 
 @media (max-width: 1200px) {
